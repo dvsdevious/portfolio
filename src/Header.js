@@ -1,18 +1,16 @@
 import React from "react";
 import {Navbar, Nav, Container} from "react-bootstrap"
 import "./Header.css"
+import Logo from "./Logo";
 
 export default function Header () {
+
     return (
         <>
         <Navbar variant="dark" className="color-nav">
             <Container>
                 <Navbar.Brand href="#home">
-                 <img 
-                    src="/logo3.png"
-                    alt="logo"
-                    width="200"
-                    />
+                    <Logo/>
                 </Navbar.Brand>
                 <Nav className="ml-auto">
                     <Nav.Link href="#home">Home</Nav.Link>
