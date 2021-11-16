@@ -3,6 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
 import Header from "./components/Header"
 import Home from "./components/pages/Home"
+import About from "./components/pages/About"
+import Projects from "./components/pages/Projects"
+import Contact from "./components/pages/Contact"
 
 function App() {
   return (
@@ -11,9 +14,9 @@ function App() {
       <Header/>
       <Routes>
         <Route path="/" element={<Home/>}></Route>
-        <Route path="/about" element={<Home/>}></Route>
-        <Route path="/projects" element={<Home/>}></Route>
-        <Route path="/contact" element={<Home/>}></Route>
+        <Route path="/about" element={<About/>}></Route>
+        <Route path="/projects" element={<Projects/>}></Route>
+        <Route path="/contact" element={<Contact/>}></Route>
       </Routes>
     </Router>
     </>

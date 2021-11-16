@@ -1,7 +1,6 @@
 import React from "react";
 import {Navbar, Nav, Container} from "react-bootstrap"
 import "./Header.css"
-import Logo from "./Logo";
 
 export default function Header () {
 
@@ -10,13 +9,13 @@ export default function Header () {
         <Navbar variant="dark" className="color-nav">
             <Container>
                 <Navbar.Brand href="#home">
-                    <Logo/>
+                    <h1>dvs.dev</h1>
                 </Navbar.Brand>
                 <Nav className="ml-auto">
-                    <Nav.Link href="#home">Home</Nav.Link>
-                    <Nav.Link href="#features">About Me</Nav.Link>
-                    <Nav.Link href="#pricing">My projects</Nav.Link>
-                    <Nav.Link href="#pricing">Contact</Nav.Link>
+                    <Nav.Link href="/">Home</Nav.Link>
+                    <Nav.Link href="/about">About Me</Nav.Link>
+                    <Nav.Link href="/projects">My projects</Nav.Link>
+                    <Nav.Link href="/contact">Contact</Nav.Link>
                 </Nav>
             </Container>
         </Navbar>

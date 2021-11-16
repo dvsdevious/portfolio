@@ -18,12 +18,7 @@ export default function HeroSection() {
             <h1> Hello I am Daria</h1>
             <h2>Front-end develper from Moscow, Russia</h2>
             <div className="hero-btns">
-                <Button 
-                className="btns" 
-                buttonStyle="btn--outline" 
-                buttonsize="btn--large">
-                My Projects
-                </Button>
+                <Button variant="outline-light">Discover</Button>
             </div>
         </div>
     )
