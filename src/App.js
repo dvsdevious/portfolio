@@ -1,14 +1,22 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from "./Header"
-import HeroSection from "./Hero"
+import {BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import Header from "./components/Header"
+import Home from "./components/pages/Home"
 
 function App() {
   return (
-    <div className="App">
+    <>
+    <Router>
       <Header/>
-      <HeroSection/>
-    </div>
+      <Routes>
+        <Route path="/" element={<Home/>}></Route>
+        <Route path="/about" element={<Home/>}></Route>
+        <Route path="/projects" element={<Home/>}></Route>
+        <Route path="/contact" element={<Home/>}></Route>
+      </Routes>
+    </Router>
+    </>
   );
 }
 
