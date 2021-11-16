@@ -13,7 +13,7 @@ export default function Logo() {
     
 return (
     <div>
-      <div id="logo" style={{ width: 200, height: 100 }} />
+      <div id="logo" style={{ width: 200, height: 80 }} />
     </div>
   );
 }
