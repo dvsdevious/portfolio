@@ -1,21 +1,21 @@
 import React from "react";
 import {Navbar, Nav, Container} from "react-bootstrap"
-import "./Header.css"
+import "./CSS/Header.css"
 
 export default function Header () {
 
     return (
         <>
-        <Navbar variant="dark" className="color-nav">
+        <Navbar className="color-nav">
             <Container>
                 <Navbar.Brand href="#home">
-                    <h1>dvs.dev</h1>
+                    <h1 className="neon">dvs.dev</h1>
                 </Navbar.Brand>
                 <Nav className="ml-auto">
-                    <Nav.Link href="/">Home</Nav.Link>
-                    <Nav.Link href="/about">About Me</Nav.Link>
-                    <Nav.Link href="/projects">My projects</Nav.Link>
-                    <Nav.Link href="/contact">Contact</Nav.Link>
+                    <Nav.Link href="/"><h5 className="linkText">Home</h5></Nav.Link>
+                    <Nav.Link href="/about"><h5 className="linkText">About Me</h5></Nav.Link>
+                    <Nav.Link href="/projects"><h5 className="linkText">My projects</h5></Nav.Link>
+                    <Nav.Link href="/contact"><h5 className="linkText">Contact</h5></Nav.Link>
                 </Nav>
             </Container>
         </Navbar>

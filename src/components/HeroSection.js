@@ -1,5 +1,5 @@
 import React from "react"
-import "./HeroSection.css"
+import "./CSS/HeroSection.css"
 import {Button} from "react-bootstrap"
 import styled from "styled-components"
 
@@ -16,7 +16,7 @@ export default function HeroSection() {
         <div className="hero-container">
             <HeroImage src="/images/heroimg.jpg" alt=""/>
             <h1> Hello I am Daria</h1>
-            <h2>Front-end develper from Moscow, Russia</h2>
+            <h2>Junior Front-end develper based in Tokyo, Japan</h2>
             <div className="hero-btns">
                 <Button variant="outline-light">Discover</Button>
             </div>
