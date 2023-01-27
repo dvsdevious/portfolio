@@ -1,5 +1,5 @@
 .hero-container {
-    height: 100vh;
+    height: 82vh;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -20,11 +20,11 @@
 }
   
   .hero-btns {
-    margin-top: 150px;
+    margin-top: 250px;
   }
   
   .hero-btns .btn {
-    margin: 250px;
+    margin: 120px;
   }
   
   .fa-play-circle {

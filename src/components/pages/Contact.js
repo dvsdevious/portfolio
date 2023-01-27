@@ -7,7 +7,7 @@ const ContactImage = styled.img`
     top:0;  
     position:absolute;
     width: 100%;
-    height: 100%;
+    height: 100vh;
     left: 0;
     filter: brightness(40%); 
     object-fit: cover;

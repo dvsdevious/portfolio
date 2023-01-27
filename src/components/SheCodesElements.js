@@ -28,8 +28,10 @@ box-shadow: 8px 8px #fdc500`
 export const CertHeading = styled.h1`
 font-size: clamo(2rem, 2.5vw, 3rem):
 text-align: center;
+display: block;
+text-align: center;
 margin-bottom: 5rem;
-padding-top: 50px;
+padding-top: 100px;
 `
 
 export const CertTitle = styled.h2`
