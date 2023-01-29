@@ -26,8 +26,8 @@ const ProjectsImage = styled.img`
 
 export default function MediaCard() {
           return (
-            <Grid container spacing={3} columns={8} sx={{padding: 4}}>
-                <Grid item xs={4}>
+            <Grid container spacing={3} sx={{padding: 4}}>
+                <Grid item xs={12} lg={6}>
                 <Card sx={{ maxWidth: 800 }}>
                 <ProjectsImage src={projectback}/>
               <CardMedia
@@ -50,7 +50,7 @@ export default function MediaCard() {
               </CardActions>
             </Card>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} lg={6}>
                 <Card sx={{ maxWidth: 800 }}>
               <CardMedia
                 sx={{ height: 375 }}
@@ -72,7 +72,7 @@ export default function MediaCard() {
               </CardActions>
             </Card>
                 </Grid>
-                <Grid item xs={4}>
+                <Grid item xs={12} lg={6}>
                 <Card sx={{ maxWidth: 800 }}>
               <CardMedia
                 sx={{ height: 375 }}

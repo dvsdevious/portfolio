@@ -2,6 +2,7 @@
     background-color: transparent;
 }
 .linkText { color:white; }
+
 .linkText:hover {
   color:#ffa500
 }
