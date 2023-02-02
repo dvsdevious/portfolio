@@ -40,13 +40,12 @@ export default function MediaCard() {
                   Fitness App
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over 6,000
-                  species, ranging across all continents except Antarctica
+                  Website for a small business brand with information about workouts and nutrition.
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <Button size="small">GitHub</Button>
+                <Button size="small">Check it out</Button>
               </CardActions>
             </Card>
                 </Grid>
@@ -62,13 +61,12 @@ export default function MediaCard() {
                   Weather App
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over 6,000
-                  species, ranging across all continents except Antarctica
+                  The weather app with a search engine and live data that allows you to check the weather forecast in any city of the world. 
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <Button size="small">GitHub</Button>
+                <Button size="small">Check it out</Button>
               </CardActions>
             </Card>
                 </Grid>
@@ -84,13 +82,12 @@ export default function MediaCard() {
                   Dictionary App
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                  Lizards are a widespread group of squamate reptiles, with over 6,000
-                  species, ranging across all continents except Antarctica
+                  A fully functional React Dictionary Search application with words' definitions, synonyms and images. 
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <Button size="small">GitHub</Button>
+                <Button size="small">Check it out</Button>
               </CardActions>
             </Card>
         </Grid> 

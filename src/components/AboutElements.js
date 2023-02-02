@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export const InfoContainer = styled.div`
   color: #fff; 
   height: 105vh;
-  top:0;
+  margin-top: 50px;
   margin-bottom: -170px ;
   ;
 

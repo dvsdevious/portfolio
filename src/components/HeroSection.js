@@ -2,6 +2,8 @@ import React from "react"
 import "./CSS/HeroSection.css"
 import {Button} from "react-bootstrap"
 import styled from "styled-components"
+import AboutPreview from "./AboutPreview"
+import PortfolioPreview from "./PortfolioPreview"
 
 const HeroImage = styled.img`
     top:0;  
@@ -13,6 +15,7 @@ const HeroImage = styled.img`
 
 export default function HeroSection() {
     return (
+        <>
         <div className="hero-container">
             <HeroImage src="/images/heroimg.jpg" alt=""/>
             <h1> Hello I am Daria</h1>
@@ -21,5 +24,8 @@ export default function HeroSection() {
                 <Button variant="outline-light">Discover</Button>
             </div>
         </div>
+        <AboutPreview/>
+        <PortfolioPreview/>
+        </>
     )
 }
