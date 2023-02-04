@@ -4,6 +4,7 @@ import {Button} from "react-bootstrap"
 import styled from "styled-components"
 import AboutPreview from "./AboutPreview"
 import PortfolioPreview from "./PortfolioPreview"
+import ContactPreview from "./ContactPreview"
 
 const HeroImage = styled.img`
     top:0;  
@@ -26,6 +27,7 @@ export default function HeroSection() {
         </div>
         <AboutPreview/>
         <PortfolioPreview/>
+        <ContactPreview/>
         </>
     )
 }

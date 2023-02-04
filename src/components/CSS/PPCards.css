@@ -23,8 +23,7 @@
     background-color: white;
 }
 .p-img {
-    width: 105%;
-    height: 100%;
+    width: 100%;
     transition: all 10s ease;
 }
 .p:hover .p-img {
