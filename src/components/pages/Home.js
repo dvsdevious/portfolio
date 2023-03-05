@@ -1,10 +1,16 @@
 import React from "react"
-import HeroSection from "../HeroSection";
+import Intro from "../Intro"
+import AboutPreview from "../AboutPreview"
+import PortfolioPreview from "../PortfolioPreview"
+import ContactPreview from "../ContactPreview"
 
 export default function Home() {
     return (
-        <> 
-        <HeroSection/>
+        <>
+        <Intro/>
+        <AboutPreview/>
+        <PortfolioPreview/>
+        <ContactPreview/>
         </>
     )
 }
