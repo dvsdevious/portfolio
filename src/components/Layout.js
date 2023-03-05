@@ -8,6 +8,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import styled from "styled-components";
+import MyCarousel from "./Carousel"
 
 import fitness from "../images/fitnessapp.png"
 import weather from "../images/weatherapp.png"
@@ -32,9 +33,10 @@ export default function MediaCard() {
                 <ProjectsImage src={projectback}/>
               <CardMedia
                 sx={{ height: 375 }}
-                image={fitness}
                 title="Fitness App"
-              /> 
+              > 
+                <MyCarousel/>
+              </CardMedia>
               <CardContent>
                 <Typography gutterBottom variant="h5" component="div">
                   Fitness App
@@ -45,7 +47,7 @@ export default function MediaCard() {
               </CardContent>
               <CardActions>
                 <Button size="small">GitHub</Button>
-                <Button size="small">Check it out</Button>
+                <Button size="small">Demo</Button>
               </CardActions>
             </Card>
                 </Grid>
@@ -65,8 +67,8 @@ export default function MediaCard() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">GitHub</Button>
-                <Button size="small">Check it out</Button>
+                <a href="https://github.com/dvsdevious/weather-app-react.git"><Button size="small">GitHub</Button></a>
+                <a href="https://quizzical-haibt-b7e0fc.netlify.app/"><Button size="small">Demo</Button></a>
               </CardActions>
             </Card>
                 </Grid>
@@ -86,8 +88,8 @@ export default function MediaCard() {
                 </Typography>
               </CardContent>
               <CardActions>
-                <Button size="small">GitHub</Button>
-                <Button size="small">Check it out</Button>
+                <a href="https://github.com/dvsdevious/dictionary.git"><Button size="small">GitHub</Button></a>
+                <a href="https://trusting-shockley-ac2eb6.netlify.app/"><Button size="small">Demo</Button></a>
               </CardActions>
             </Card>
         </Grid> 
