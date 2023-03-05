@@ -1,7 +1,7 @@
 import React from "react"
 import Intro from "../Intro"
 import AboutPreview from "../AboutPreview"
-import PortfolioPreview from "../PortfolioPreview"
+import Cards from "../Cards"
 import ContactPreview from "../ContactPreview"
 
 export default function Home() {
@@ -9,7 +9,7 @@ export default function Home() {
         <>
         <Intro/>
         <AboutPreview/>
-        <PortfolioPreview/>
+        <Cards/>
         <ContactPreview/>
         </>
     )
