@@ -4,8 +4,8 @@ export const CertContainer = styled.div`
 width: 100vw;
 min-height:80vh;
 padding:5rem calc((100vw-1300px) / 2);
-background: #150f0f;
-color: #fff;
+background: white;
+color: black;
 `
 export const CertWrapper = styled.div`
 display: flex;
@@ -50,18 +50,18 @@ text-align: center;
 export const CertButton = styled.button`
 font-size: 15px; 
 padding: 8px 20px;
-border: 1px solid #F9F9F9;
+border: 1px solid black;
 background-color: transparent;
 border-radius: 1.5rem;
 transition: 0.2 ease-out;
-color: #FFFFFF;
+color: black;
 font-family: Phantomsans, sans-serif;
-text-color: white;
+text-color: black;
 
 &:hover {
-    background: white;
+    background: purple;
     transition: 0.2 ease-out;
     cursor: pointer;
-    color: #000;
+    color: white;
 }
 `;

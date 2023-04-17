@@ -3,10 +3,8 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   color: #fff; 
-  height: 105vh;
-  margin-top: 50px;
-  margin-bottom: -170px ;
-  ;
+  height: 130vh;
+  margin-bottom: -125px;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -64,7 +62,7 @@ line-height: 1.1;
 font-weight:600;
 `
 export const Text = styled.p`
-max-width: 440px;
+max-width: 500px;
 margin-bottom: 35px;
 font-size: 18px;
 line-height: 24px;

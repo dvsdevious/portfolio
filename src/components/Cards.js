@@ -11,7 +11,7 @@ import { Container, Col } from 'react-bootstrap';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Here's a preview of the projects I've done</h1>
+      <h1>My Project's preview</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <Container className='cards__items'>
