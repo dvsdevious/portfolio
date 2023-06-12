@@ -18,7 +18,7 @@ export default function AboutPreview() {
             <div className='a-sub'> 
                 <p>Hi there! My name is Daria and I'm a web developer with over a year of experience in HTML, CSS, JavaScript and React. </p>
                 <p>In addition to my technical skills, I hold a Bachelor's degree in Business and have worked in marketing and social media management. </p>
-                <p>I'm passionate about creating beautiful and functional websites that help businesses achieve their goals. Let's work together to bring your vision to life!"</p>
+                <p>I'm passionate about creating beautiful and functional websites that help businesses achieve their goals. Let's work together to bring your vision to life!</p>
             </div>
         </div>
     </div>

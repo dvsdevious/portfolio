@@ -1,4 +1,4 @@
-import '../CSS/Contact.css'
+import '../CSS/ContactPreview.css'
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 
@@ -42,3 +42,4 @@ const Contact = () => {
 }
 
 export default Contact
+

@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const CertContainer = styled.div`
 width: 100vw;
-min-height:80vh;
+height: 90vh;
 padding:5rem calc((100vw-1300px) / 2);
 background: white;
 color: black;

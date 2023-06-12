@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   color: #fff; 
-  height: 130vh;
+  height: 110vh;
   margin-bottom: -125px;
 
   @media screen and (max-width: 768px) {
