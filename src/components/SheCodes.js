@@ -15,7 +15,7 @@ const SheCodes = () => {
                             <CertImage src={img} alt={alt} />
                             <CertInfo>
                                 <CertTitle>{name}</CertTitle>
-                                <a href={link} target='_blank'> 
+                                <a href={link} target='_blank' rel="noreferrer"> 
                                 <CertButton>{button}</CertButton>
                                 </a>
                             </CertInfo>

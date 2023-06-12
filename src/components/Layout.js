@@ -33,6 +33,7 @@ export default function MediaCard() {
                 <ProjectsImage src={projectback}/>
               <CardMedia
                 sx={{ height: 375 }}
+                image={fitness}
                 title="Fitness App"
               > 
                 <MyCarousel/>
