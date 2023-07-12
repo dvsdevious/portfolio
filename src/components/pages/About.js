@@ -31,7 +31,6 @@ const styles = StyleSheet.create({
     },
     text: {
         fontSize: 22,
-        fontFamily: "Gill Sans", sans,
     },
       });
 
