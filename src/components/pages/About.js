@@ -30,7 +30,8 @@ const styles = StyleSheet.create({
         marginHorizontal: 20,
     },
     text: {
-        fontSize: 32,
+        fontSize: 22,
+        fontFamily: "Gill Sans", sans,
     },
       });
 
