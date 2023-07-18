@@ -30,7 +30,8 @@ const styles = StyleSheet.create({
         marginHorizontal: 20,
     },
     text: {
-        fontSize: 22,
+        fontSize: 20,
+        fontFamily: 'Arial, Helvetica, sans-serif',
     },
       });
 

@@ -57,6 +57,7 @@ transition: 0.2 ease-out;
 color: black;
 font-family: Phantomsans, sans-serif;
 text-color: black;
+width: 100%;
 
 &:hover {
     background: purple;

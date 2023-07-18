@@ -1,7 +1,7 @@
 import '../CSS/ContactPreview.css'
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
-
+import cImg from '../../images/contactimg.svg'
 
 
 const Contact = () => {
@@ -24,17 +24,17 @@ const Contact = () => {
             <div className="c-bg"></div>
                 <div className="c-wrapper">
                     <div className="c-left">
-                        <h1 className="c-title"> Let's work together</h1>
+                        <img src={cImg} alt="contact" width='510'/>
                     </div>
                     <div className="c-right">
+                        <h1>Get in touch 👋</h1>
                         <form ref={formRef} onSubmit={handleSubmit}> 
                             <input type="text" placeholder="Name" name="user_name"/>
-                            <input type="text" placeholder="Subject" name="user_subject"/>
                             <input type="text" placeholder="Email" name="user_email"/>
                             <textarea rows="5" placeholder="Message" name="message"/>
-                            <button> Submit </button>
-                            {done && "Thank you!"}
                         </form>
+                        <button> Submit </button>
+                        {done && "Thank you!"}
                     </div>
                 </div>
         </div>

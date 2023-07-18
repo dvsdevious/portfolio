@@ -1,12 +1,18 @@
 .color-nav {
     background-color: rgba(0, 0, 0, 0.5);
 }
-.linkText { color:white; }
+.linkText { color:white;
+  font-size: 15px; }
 
 .linkText:hover {
   color:#ffa500
 }
+.ms-auto {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
 
+}
 @import url("https://fonts.googleapis.com/css?family=Sacramento&display=swap");
 
 .neon {
