@@ -1,4 +1,4 @@
-import '../CSS/ContactPreview.css'
+import '../CSS/Contact.css'
 import { useRef, useState } from 'react'
 import emailjs from '@emailjs/browser';
 import cImg from '../../images/contactimg.svg'
